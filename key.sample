@@ -1,0 +1,2 @@
+# This needs to be the key used to stash the username and password values stored in config.py
+strKey = b'w52K5Uk5c5aT5hs5483p5EX50q-55Rn5Hs5Ru53U53Y='

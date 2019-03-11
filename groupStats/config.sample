@@ -1,0 +1,12 @@
+strListDataURI = "https://tenant.sharepoint.com/sites/SiteName/_api/web/lists/GetByTitle('ListName')/items"
+strListInfoURI = "https://tenant.sharepoint.com/sites/SiteName/_api/web/lists/GetByTitle('ListName')"
+strListContentTypeURI = "https://tenant.sharepoint.com/sites/SiteName/_api/web/lists/GetByTitle('ListName')/contenttypes"
+strConnectURL = "tenant.sharepoint.com"
+strUsername = 'uid@tenant.com'
+strPassword = 'P@s5w0rD!'
+strContextURL = "https://tenant.sharepoint.com/sites/SiteName/_api/contextinfo"
+
+strClientID = "qte51e9f-712p-48c9-9ma7-gc304192f1d4"
+strClientSecret = "qzzP1J50((~fhcPTWJm106*"
+strGraphAuthURL = 'https://login.microsoftonline.com/tenant.com/oauth2/v2.0/token'
+strWebhookURL = 'https://outlook.office.com/webhook/qam0922d-4lfq-a965-zat9-p93b55bff4bd@1l6qb4ct-byez-r0k5-jee3-l8dvc5z3e2b2/IncomingWebhook/m4z9k5sat9yeqeg4t5f2479a32fde691/mepccdec-p9r9-wfe4-k0c5-2fbbk0o3u3pm'
