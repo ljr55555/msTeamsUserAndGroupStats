@@ -1,11 +1,14 @@
-strListDataURI = "https://tenant.sharepoint.com/sites/SiteName/_api/web/lists/GetByTitle('ListName')/items"
-strListInfoURI = "https://tenant.sharepoint.com/sites/SiteName/_api/web/lists/GetByTitle('ListName')"
-strListContentTypeURI = "https://tenant.sharepoint.com/sites/SiteName/_api/web/lists/GetByTitle('ListName')/contenttypes"
+# SPO Connection Details
 strConnectURL = "tenant.sharepoint.com"
-strUsername = 'uid@tenant.com'
-strPassword = 'P@s5w0rD!'
+strUsername = b'g55555B5e5JET9D5S55BWuD5HVJW8B5jbNIUyQ5u5mV8y91FpM54hkTFdwWz3lq6m5KjjJ555TeUj5BB5jtUt5lV5495hjt5s2i5Gt585_NbU4w165VZb5k='
+strPassword = b'g55555B5e5JEp1d5M5q55WuP0lw5K61jDoD5vWdy7YrgrklxNY5WY5wsSVvHp8ew39Q55EL_RURwM4Fdg6M9-B8O5-i-l15gPQ=='
 strContextURL = "https://tenant.sharepoint.com/sites/SiteName/_api/contextinfo"
 
+strGroupListDataURI = "https://tenant.sharepoint.com/sites/ITCentralSupport/_api/web/lists/GetByTitle('ListName')/items"
+strGroupListInfoURI = "https://tenant.sharepoint.com/sites/ITCentralSupport/_api/web/lists/GetByTitle('ListName')"
+strGroupListContentTypeURI = "https://tenant.sharepoint.com/sites/ITCentralSupport/_api/web/lists/GetByTitle('ListName')/contenttypes"
+
+# MS Graph Connection Details
 strClientID = "qte51e9f-712p-48c9-9ma7-gc304192f1d4"
 strClientSecret = "qzzP1J50((~fhcPTWJm106*"
 strGraphAuthURL = 'https://login.microsoftonline.com/tenant.com/oauth2/v2.0/token'
