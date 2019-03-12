@@ -30,8 +30,10 @@ In each subfolder, copy config.sample to config.py and modify with *your* applic
 
 # User Stats
 **postTeamsStatsToSPO.py** -- updates individual usage statistics
+
 **updateUserData.py** -- Updates account status and reporting information
 
 # Group Stats
 **postGroupStatsToSPO.py** -- Inserts newly created Teams spaces, updates visibility, and creates a searchable HTML table of  public Teams
+
 **getGroupActivity.py** -- Updates Team owner, member count, and date of latest Channel activity
