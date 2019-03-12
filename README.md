@@ -1,6 +1,17 @@
 # MS Teams User and Group Statistics
 
-This script uses Microsoft Graph to obtain Microsoft Teams usage details per user. Statistics are stored in a SharePoint Online list, and a daily summary is posted to a Teams channel using the generic incoming webhook. 
+This script uses Microsoft Graph to obtain Microsoft Teams usage details per user. Statistics are stored in SharePoint Online lists.
+
+# User Stats
+**postTeamsStatsToSPO.py** -- updates individual usage statistics and posts a daily summary to a Teams channel using a webhook.
+
+**updateUserData.py** -- Updates account status and reporting information
+
+# Group Stats
+**postGroupStatsToSPO.py** -- Inserts newly created Teams spaces, updates visibility, and creates a searchable HTML table of  public Teams
+
+**getGroupActivity.py** -- Updates Team owner, member count, and date of latest Channel activity
+
 
 # Usage
 Data is stored in SharePoint Online lists using SPO's REST API. TableCrossReference.xlsx provides the list definitions. When creating lists, be aware that [internal column names may not match column display names.](http://lisa.rushworth.us/?p=4572)
@@ -28,12 +39,3 @@ Encrypt credentials with access to your SPO list:
 
 In each subfolder, copy config.sample to config.py and modify with *your* application registration information, tenant auth URL, SPO credentials, and webhook URL.
 
-# User Stats
-**postTeamsStatsToSPO.py** -- updates individual usage statistics
-
-**updateUserData.py** -- Updates account status and reporting information
-
-# Group Stats
-**postGroupStatsToSPO.py** -- Inserts newly created Teams spaces, updates visibility, and creates a searchable HTML table of  public Teams
-
-**getGroupActivity.py** -- Updates Team owner, member count, and date of latest Channel activity
