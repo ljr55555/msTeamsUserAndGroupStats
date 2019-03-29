@@ -119,3 +119,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+userStats/updateLastUsedDate.py
+userStats/getUserManagementRollup.py
