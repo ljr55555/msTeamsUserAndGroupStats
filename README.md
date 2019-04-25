@@ -31,6 +31,7 @@ In the root directory, copy key.sample to key.py and generate a new key:
 Encrypt credentials with access to your SPO list:
 
     from cryptography.fernet import Fernet
+    f = Fernet(strKey)
     token = f.encrypt(b"uid@example.com")
     print("The crypted version is %s" % token)
      
